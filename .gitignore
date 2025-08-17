@@ -137,3 +137,23 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Node/Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+.turbo/
+
+# Env files (kabhi commit NAHIN karna)
+.env
+.env.*
+!.env.example
+.env.local
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+
