@@ -4,6 +4,7 @@ Minimal CRM scaffold built with Next.js 14, Prisma, NextAuth and Tailwind CSS.
 
 ## Getting Started
 
+codex/create-new-branch-and-scaffold-minimal-crm-7x0ab8
 1. Start PostgreSQL (using Docker):
    ```bash
    docker run --name crm-postgres -e POSTGRES_DB=crm \
@@ -40,3 +41,22 @@ Minimal CRM scaffold built with Next.js 14, Prisma, NextAuth and Tailwind CSS.
    ```bash
    npm run email:scheduler
    ```
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Copy the example environment file and configure variables:
+   ```bash
+   cp .env.example .env
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+Prisma models are defined in `prisma/schema.prisma`. Seed data can be added with:
+```bash
+npm run seed
+```
+main
