@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "scheduler": "node src/server/email/scheduler.ts"
     "lint": "next lint",
     "prisma:generate": "prisma generate",
     "prisma:db": "prisma migrate dev",
